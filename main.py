@@ -2,8 +2,14 @@
 # Setember 18
 # IPO Intro
 
-num1 = input('4/n')
-num2 = input('16/n')
+num1 = input('Enter a number: (Example: 7)\n')
+#Take the first input into an INTAGER
+num1 = int(num1)
+
+
+
+num2 = input('Enter another number: (Example: 4)\n')
+num2 = int(num2)
 
 total = num1 + num2 
 
